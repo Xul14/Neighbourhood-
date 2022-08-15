@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+    body{
+    height: 100vh;
+    background-image: url(./img/cloud.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    
+    header{
+    background-color: black;
+    height: 100px;
+    padding: 20px;
+    align-items: center;
+    }
+    
+    .logo{
+    height: 100px;
+    }
+    
+    main{
+    display: flex;
+    gap: 25px;
+    flex-direction: column;
+    padding-top: 40px;
+    align-items: center;
+    color: whitesmoke;
+    
+    }
+    
+    .titulo{
+    font-size: 75px;
+    text-align: center;
+    }
+    
+    .integrantes{
+    width: 400px;
+    align-items: center;
+    border: 4px solid black;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    }
+    
+    .infos{
+    text-align: center;
+    font-size: larger;
+    }
+    
+    section{
+    width: 750px;
+    }
+    
+    .musicas{
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    font-size:x-large;
+    align-items: flex-start;
+    margin: 40px;
+    }
+    
+    .subtitulo{
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    margin: 15px;
+    }
+    
+    footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    text-align: center;
+    background-color: black;
+    }
+    
+    .copyright{
+    padding: 20px;
+    color: white
+    }
